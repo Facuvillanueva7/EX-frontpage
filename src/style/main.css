@@ -1,0 +1,53 @@
+/* Font Style */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* Header Background */
+#main-header{
+    background: url(../img/ocean-1867285.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Buttons */
+#btn-left{
+    background-color: #2c3e50;
+    
+    border:none;
+    
+}
+#btn-left:hover{
+    background-color:#34495e ;
+}
+#btn-right{
+    border: white 2px;
+    background: transparent;
+    color: white;
+}
+#btn-right:hover{
+    background: white;
+    color: black;
+}
+#parallax{
+    background-image: url(../img/wave-1913559_1920.jpg);
+    background-attachment: fixed;
+}
+#bosque{
+    
+    margin-left: 6rem;
+}
+#customers{
+    background: url(../img/pier-407252.jpg);
+    background-attachment: fixed;
+    background-size: cover
+}
+.clients{
+    width: 50%;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out;
+}
+.clients:hover{
+    filter: transparent ;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1);
+}
